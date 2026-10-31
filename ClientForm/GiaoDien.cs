@@ -191,6 +191,14 @@ namespace ClientForm
             }
         }
 
+        private void btn_Gui_MouseEnter(object sender, EventArgs e)
+        {
+            btn_Gui.BackColor = AppColors.PrimaryHover;
+        }
 
+        private void btn_Gui_MouseLeave(object sender, EventArgs e)
+        {
+            btn_Gui.BackColor = AppColors.Primary;
+        }
     }
 }
